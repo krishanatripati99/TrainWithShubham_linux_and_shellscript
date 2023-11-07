@@ -1,0 +1,18 @@
+1) whoami -- to get username
+2) touch meri_file.txt -- to create a file (only create)
+3) ls -- list out the files and directory present in current directory
+4) pwd -- to get present working directory
+5) mkdir TWS -- to create a new directory (TWS - train with shubham)
+6) cd TWS -- to enter in TWS directory
+7) mv ../meri_file.txt . -- moving a file (mv src dest)
+8) cp ../meri_file.txt . -- copying a file (cp src dest)
+9) clear -- to clear the bash screen
+10) nano -- to open a editor like notepad
+    nano meri_file.txt -- to open a new file meri_file.txt in nano editor
+    use ctrl + x, to save the file
+11) cat meri_file.txt -- cat command is used to view content of file, we will only be able to read file and not edit it
+12) echo "hello world" -- echo is used to print statements
+13) history -- to see all commands you have used till now
+14) rm meri_file.txt -- to delete the file
+15) rmdir dir_name -- to delete the directory
+16) cd -- go to home directory

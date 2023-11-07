@@ -1,0 +1,13 @@
+1) sudo apt-get update -- to keep all your packages up to date in debian or debian based linux distribution
+2) sudo apt-get install docker -- to install package we use (sudo apt-get install package_name)
+3) ssh -i "my_key_pair.pem" ubuntu@ec2-54-88-103-104.compute-1.amazonaws.com  -- (ssh is secure socket shell which is a network protocol
+                                                                                  that  gives a secure way to access a computer
+                                                                                  over an unsecured network. In this command we need to mention the pem key file
+                                                                                  )
+4) scp -i "my_key_pair.pem" areas.json ubuntu@ec2-54-88-103-104.compute-1.amazonaws.com:/home/ubuntu -- (The scp command copies files or directories between a local and a                                                                                                         remote system or between two remote systems. You can use this com                                                                                                         mand from a remote system (after logging in with the ssh command)                                                                                                         or from the local system.)
+  the command syntax is "scp -i key_file src dest".
+  this command must be run from your local.
+
+  Copying file from local to remote Ex: scp -i "my_key_pair.pem" areas.json ubuntu@ec2-54-88-103-104.compute-1.amazonaws.com:/home/ubuntu
+  Downloading file from remote to local: Ex: scp -i "my_key_pair.pem" ubuntu@ec2-54-88-103-104.compute-1.amazonaws.com:/home/ubuntu/new_file.txt .
+5) man ls -- (man is manual i.e it gives a manual for the command, for example here it gives us manual to use 'ls' command) 
