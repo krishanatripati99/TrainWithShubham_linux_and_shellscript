@@ -1,0 +1,6 @@
+1) free -- this command is used to check the free RAM in the machine.
+2) top -- this command is used to see the top processes runnint your machine and amount of %CPU they are taking.
+3) df -H -- (disk file) this command is used to see the disk space, free and used.
+4) df -H | awk '{print $1 " " $5}'
+   'awk' command is used for segmentation of output, in above case the output we are getting from 'df -H' is getting piped to awk command and then only
+   1st and 5th column of the output is taken.  
